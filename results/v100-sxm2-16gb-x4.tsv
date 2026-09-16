@@ -1,0 +1,8 @@
+cell	devices	mode	status	warm	sampling	total	fallback	temp_max	temp_avg	therm_pct	pcap_pct
+1card	cuda0	layer	OK	-	12.96s	83.67s	0	54	35.2	0	0
+L2	cuda0&cuda1	layer	OK	-	9.92s	77.03s	0	48	36.6	0	0
+L3	cuda0&cuda1&cuda2	layer	OK	-	10.11s	75.90s	0	46	38.1	0	0
+L4	cuda0&cuda1&cuda2&cuda3	layer	OK	-	10.75s	76.29s	0	43	38.8	0	0
+R2	cuda0&cuda1	row	OK	-	28.67s	94.54s	0	59	39.8	0	0
+R3	cuda0&cuda1&cuda2	row	OK	-	38.05s	103.62s	0	52	40.8	0	0
+R4	cuda0&cuda1&cuda2&cuda3	row	OK	-	48.16s	114.13s	0	50	42.2	0	0

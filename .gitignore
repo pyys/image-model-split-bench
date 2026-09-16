@@ -1,0 +1,15 @@
+# 측정 산출 이미지는 커밋하지 않는다
+*.png
+
+# 셀별 전문 로그와 GPU 상태 CSV 는 결과 표(results/*.tsv)만 커밋하고 제외
+bench-flux/
+r_*.log
+gpu_*.csv
+run*.log
+
+# 모델·가중치
+*.gguf
+*.safetensors
+
+__pycache__/
+*.pyc

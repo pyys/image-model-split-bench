@@ -1,0 +1,8 @@
+cell	devices	mode	status	warm	sampling	total	fallback
+1card	cuda0	layer	OK	-	49.05s	116.66s	0
+L2	cuda0&cuda1	layer	OK	-	53.13s	120.74s	0
+L3	cuda0&cuda1&cuda2	layer	OK	-	54.63s	121.78s	0
+L4	cuda0&cuda1&cuda2&cuda3	layer	OK	-	55.29s	123.19s	0
+R2	cuda0&cuda1	row	OK	-	194.14s	262.12s	0
+R3	cuda0&cuda1&cuda2	row	OK	-	217.73s	285.74s	0
+R4	cuda0&cuda1&cuda2&cuda3	row	OK	-	255.76s	323.48s	0
